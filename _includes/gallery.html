@@ -1,5 +1,5 @@
 <div class="container">
-{% assign image_files = site.static_files | where: "image", true | | sort: 'date' | reverse %}
+{% assign image_files = site.static_files | where: "image", true | | sort: 'date' %}
     {% for myimage in image_files %}
     {% if forloop.first %}<div class="row">{% endif %}
     
