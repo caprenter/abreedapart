@@ -1,0 +1,25 @@
+sass:
+  sass_dir: assets/css
+
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+title: "A Breed Apart" # the name of your site, e.g. ACME Corp.
+tagline: "Tattoo Studio"
+email: abreedapart1@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Tattoo Studio based in Bingley, West Yorkshire
+author: caprenter
+url: "https://theargentgrub.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+#google_analytics: UA-111111111-1
+#twitter:
+#  username: 
+#  card: summary #keep this to generate a twitter share card
+defaults:
+  - scope:
+      path: "assets/images/gallery"
+    values:
+      image: true
