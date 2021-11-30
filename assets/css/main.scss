@@ -7,6 +7,7 @@ body, html {
   background: none;
   color: #000;
   font-family: 'Ubuntu', sans-serif;
+  margin:0.4em;
 }
 
 html { 
@@ -22,7 +23,7 @@ nav {
 font-size:1em;
 }
 
-
+ 
 
 
 a {
@@ -182,19 +183,21 @@ font-weight:700;
 
 //minimum values here
 .listen {
-      font-size:1.6em; 
-      text-align:center;
-      margin:1em 0 0 0;
-    }
-    p.motto {
-      font-size: 1.1em;
-      text-align: center;
-    }
-    .row, .video {
-      margin-bottom: 2em;
-    }
+  font-size:1.6em; 
+  text-align:center;
+  margin:1em 0 0 0;
+}
+p.motto {
+  font-size: 1.1em;
+  text-align: center;
+}
+.row, .video {
+  margin-bottom: 2em;
+}
 
-
+.col-sm-4:nth-child(1), .col-sm-4:nth-child(2) {
+  margin-bottom: 2em;
+}
     
 @media (min-width: 320px){
     .listen {
@@ -208,6 +211,7 @@ font-weight:700;
     .row, .video {
       margin-bottom: 2em;
     }
+      
 }
 
 @media (min-width: 576px) {
@@ -224,6 +228,9 @@ font-weight:700;
     }
     .row, .video {
       margin-bottom: 2em;
+    }
+    .col-sm-4:nth-child(1), .col-sm-4:nth-child(2) {
+      margin-bottom: 0;
     }
 }
 
