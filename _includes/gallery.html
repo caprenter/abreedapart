@@ -1,17 +1,3 @@
-<!--<div class="container">
-    <div class ="image-gallery">
-    <section class="row">
-        {% assign image_files = site.static_files | where: "image", true %}
-        {% for myimage in image_files %}
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-          <img src="{{ myimage.path }}" alt="{{ filename }}"  class="img-gallery" />
-        </div>
-        {% endfor %}
-    </section>
-  </div>
-</div>
--->
-
 <div class="container">
 {% assign image_files = site.static_files | where: "image", true | | sort: 'date' | reverse %}
     {% for myimage in image_files %}
@@ -23,7 +9,7 @@
 
 
             <div class="col-sm-4">
-                <img src="{{ myimage.path }}" alt="{{ filename }}"  class="img-responsive" />
+                <img src="{{ '/assets/images/gallery' | relative_url }}/{{ myimage.name }}" alt="{{ filename }}"  class="img-responsive" />
             </div>
 {% if indexmod3 == 0 %}</div>{% endif %}
 {% if forloop.last %}</div>{% endif %}
