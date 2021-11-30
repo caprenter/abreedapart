@@ -11,8 +11,8 @@ tagline: "Tattoo Studio"
 email: abreedapart1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Tattoo Studio based in Bingley, West Yorkshire
-author: caprenter
-url: "https://theargentgrub.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+author: A Breed Apart
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "abreedapart" # the subpath of your site, e.g. /blog
 #google_analytics: UA-111111111-1
 #twitter:
