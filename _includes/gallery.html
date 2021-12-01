@@ -9,7 +9,7 @@
 
 
             <div class="col-sm-4">
-                <img src="{{ '/assets/images/gallery' | relative_url }}/{{ myimage.name }}" alt="{{ filename }}"  class="img-responsive" />
+                <img src="{{ '/assets/images/gallery' | relative_url }}/{{ myimage.name }}" alt="{{ myimage.extname | remove: myimage.extname }}" title="{{ myimage.name | remove: myimage.extname }}"  class="img-responsive" />
             </div>
 {% if indexmod3 == 0 %}</div>{% endif %}
 {% if forloop.last %}</div>{% endif %}
