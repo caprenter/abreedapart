@@ -14,7 +14,7 @@ content-description: "A Breed Apart Tattoo Studio, Bingley, West Yorkshire. Esta
 
 <section class="row">
 <section class="col" markdown="1">
-  <p class="motto">2 Market Street, Bingley, BD16 2HP (Map)</p>
+  <p class="motto">2 Market Street, Bingley, BD16 2HP (<a href="https://goo.gl/maps/Z9bwGwjgDTJQgJ5M6">map</a>)</p>
   <p class="motto">
     Local Health Authority Registered<br>
     Class S Vacuum Autoclave Sterilisation
