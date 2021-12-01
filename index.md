@@ -27,11 +27,11 @@ content-description: "A Breed Apart Tattoo Studio, Bingley, West Yorkshire. Esta
 </section>
 </section>
     
-<!--**************************-><p class="motto">
+<!-- WRITE YOUR MESSAGE BELOW IN THE GAP --><p class="motto">
 
-Open today
+Open today for appointments from 10am -2pm
 
-<!--******************-></p>
+<!-- WRIET YOUR MESSAGE ABOVE IN THE GAP--></p>
 
 </div>
 </div>
