@@ -27,6 +27,11 @@ content-description: "A Breed Apart Tattoo Studio, Bingley, West Yorkshire. Esta
 </section>
 </section>
 
+    <!--**************************-><p class="motto">
+
+Open today
+
+<!--******************-></p>
 
 </div>
 </div>
