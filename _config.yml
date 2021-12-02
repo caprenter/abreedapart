@@ -10,7 +10,7 @@ title: "A Breed Apart" # the name of your site, e.g. ACME Corp.
 tagline: "Tattoo Studio"
 email: abreedapart1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Tattoo Studio based in Bingley, West Yorkshire
+ A Breed Apart Tattoo Studio, Bingley, West Yorkshire, Established in 2010, Specialising in Black and grey realism.
 author: A Breed Apart
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "abreedapart" # the subpath of your site, e.g. /blog
