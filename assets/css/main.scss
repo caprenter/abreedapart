@@ -180,6 +180,16 @@ padding: 0 1.5rem;
 font-weight:700;
 }
 
+.open-today {
+  padding: 1em;
+  background: #e7de5b;
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom:1em;
+  color: #992526;
+  font-weight: 800;
+}
+
 
 //minimum values here
 .listen {
@@ -205,7 +215,7 @@ font-weight:700;
       text-align:center;
       margin:1em 0 0 0;
     }
-    .motto {
+    .motto, .open-today {
       font-size: 1.1em;
     }
     .row, .video {
@@ -222,6 +232,9 @@ font-weight:700;
     }
     .motto {
       font-size: 1.3em;
+    }
+    .open-today {
+      font-size: 1.6em;
     }
     .container {
       padding-left:0;
@@ -242,6 +255,9 @@ font-weight:700;
     .motto {
       font-size: 1.6em;
     }
+    .open-today {
+      font-size: 1.8em;
+    }
     .row, .video {
       margin-bottom: 2em;
     }
@@ -261,6 +277,9 @@ font-weight:700;
     .motto {
       font-size: 1.8em;
     }
+    .open-today {
+      font-size: 2.2em;
+    }
 }
 
 @media (min-width: 1200px){
@@ -270,5 +289,8 @@ font-weight:700;
     }
     .motto {
       font-size: 2em;
+    }
+    .open-today {
+      font-size: 3em;
     }
 }
