@@ -1,19 +1,17 @@
 <div class="container">
 {% assign image_files = site.static_files | where: "image", true | | sort: 'date' %}
-    {% for myimage in image_files %}
-    {% if forloop.first %}<div class="row">{% endif %}
     
+{% for myimage in image_files %}
     
     {% assign indexmod3 = forloop.index | modulo: 3 %}
-     {% if indexmod3 == 1 %}<div class="row">{% endif %}
-
-
+    {% if indexmod3 == 1 %}<div class="row">{% endif %}
             <div class="col-sm-4">
                 <img src="{{ '/assets/images/gallery' | relative_url }}/{{ myimage.name }}" alt="{{ myimage.extname | remove: myimage.extname }}" title="{{ myimage.name | remove: myimage.extname }}"  class="img-responsive" />
             </div>
-{% if indexmod3 == 0 %}</div>{% endif %}
-{% if forloop.last %}</div>{% endif %}
-    {% endfor %}
+    {% if indexmod3 == 0 %}</div>{% endif %}
+
+  
+  {% endfor %}
 
 </div>
 
