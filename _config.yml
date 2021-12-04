@@ -12,8 +12,8 @@ email: abreedapart1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  A Breed Apart Tattoo Studio, Bingley, West Yorkshire, Established in 2010, Specialising in Black and grey realism.
 author: A Breed Apart
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "abreedapart" # the subpath of your site, e.g. /blog
+url: "https://www.abreedaparttattoo.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "abreedapart" # the subpath of your site, e.g. /blog
 #google_analytics: UA-111111111-1
 #twitter:
 #  username: 
