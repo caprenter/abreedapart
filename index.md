@@ -2,7 +2,7 @@
 layout: default
 title: Home
 content-description: "A Breed Apart Tattoo Studio, Bingley, West Yorkshire, Established in 2010, Specialising in Black and grey realism."
-open-today-message: Cancellation dates available: Full days; 28th Sept,26th Oct. abreedapart1@gmail.com
+open-today-message:New bookings for November to the end of January will be available from October. abreedapart1@gmail.com
 ---  
 
 <div class="main-image" markdown="1">
