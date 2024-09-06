@@ -1,6 +1,6 @@
 <footer id="footer">
     
-  <p class="footer-txt">A Breed Apart &copy; 2021 <br>
+  <p class="footer-txt">A Breed Apart &copy; 2024 <br>
     2 Market Street, Bingley, BD16 2HP<br>
     <i class="far fa-envelope"></i> <a href="mailto:{{site.email}}">{{site.email}}</a><br>
     <i class="fas fa-phone"></i> 01274 568415
