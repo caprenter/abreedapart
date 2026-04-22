@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-content-description: "A Breed Apart Tattoo Studio, Bingley, West Yorkshire, Established in 2010, Specialising in Black and grey realism."
+content-description: "A Breed Apart Tattoo Studio, Bingley, West Yorkshire, Established in 2010, Specialising in Black and grey realism but covering most styles."
 open-today-message: "Now taking bookings for June/July/August. abreedapart1@gmail.com'"
 ---  
 
